@@ -24,7 +24,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -4752,27 +4752,26 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.4818" y="0.8128" rot="MR0"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.8128" y="19.4818" rot="MR0"/>
 <element name="U$1" library="buzzard_labels" package="2#5#5#5V13" value="" x="1.397" y="2.54"/>
-<element name="U$2" library="buzzard_labels" package="GND9" value="" x="1.397" y="5.08"/>
-<element name="U$3" library="buzzard_labels" package="#SD7" value="" x="1.27" y="7.62"/>
-<element name="U$4" library="buzzard_labels" package="GAIN6" value="" x="1.397" y="10.16"/>
-<element name="U$5" library="buzzard_labels" package="DIN5" value="" x="1.397" y="12.7"/>
-<element name="U$6" library="buzzard_labels" package="BCLK4" value="" x="1.397" y="15.24"/>
-<element name="U$7" library="buzzard_labels" package="LRCLK3" value="" x="1.397" y="17.78"/>
+<element name="U$2" library="buzzard_labels" package="GND9" value="" x="1.524" y="5.08"/>
+<element name="U$3" library="buzzard_labels" package="#SD7" value="" x="1.397" y="7.62"/>
+<element name="U$4" library="buzzard_labels" package="GAIN6" value="" x="1.524" y="10.16"/>
+<element name="U$5" library="buzzard_labels" package="DIN5" value="" x="1.524" y="12.7"/>
+<element name="U$6" library="buzzard_labels" package="BCLK4" value="" x="1.524" y="15.24"/>
+<element name="U$7" library="buzzard_labels" package="LRCLK3" value="" x="1.524" y="17.78"/>
 <element name="U$8" library="buzzard_labels" package="I2S_AUDIO0" value="" x="6.985" y="18.542"/>
 <element name="U$9" library="buzzard_labels" package="BREAKOUT1" value="" x="6.985" y="17.145"/>
 <element name="U$10" library="buzzard_labels" package="MAX98357A2" value="" x="6.096" y="15.24"/>
-<element name="U$11" library="buzzard_labels" package="LRCLK3" value="" x="1.397" y="17.78" rot="MR180"/>
-<element name="U$12" library="buzzard_labels" package="BCLK4" value="" x="1.397" y="15.24" rot="MR180"/>
-<element name="U$13" library="buzzard_labels" package="DIN5" value="" x="1.397" y="12.7" rot="MR180"/>
-<element name="U$14" library="buzzard_labels" package="GAIN6" value="" x="1.397" y="10.16" rot="MR180"/>
-<element name="U$20" library="buzzard_labels" package="#SD7" value="" x="1.27" y="7.62" rot="MR180"/>
-<element name="U$21" library="buzzard_labels" package="GND9" value="" x="1.397" y="5.08"/>
+<element name="U$11" library="buzzard_labels" package="LRCLK3" value="" x="1.524" y="17.78" rot="MR180"/>
+<element name="U$12" library="buzzard_labels" package="BCLK4" value="" x="1.524" y="15.24" rot="MR180"/>
+<element name="U$13" library="buzzard_labels" package="DIN5" value="" x="1.524" y="12.7" rot="MR180"/>
+<element name="U$14" library="buzzard_labels" package="GAIN6" value="" x="1.524" y="10.16" rot="MR180"/>
+<element name="U$20" library="buzzard_labels" package="#SD7" value="" x="1.397" y="7.62" rot="MR180"/>
 <element name="U$22" library="buzzard_labels" package="VDD8" value="" x="1.397" y="2.54" rot="MR180"/>
 <element name="U$16" library="buzzard_labels" package="MONO12" value="" x="7.112" y="1.016" rot="MR180"/>
 <element name="U$19" library="buzzard_labels" package="STEREO14" value="" x="6.858" y="5.715" rot="MR180"/>
 <element name="U$17" library="buzzard_labels" package="L10" value="" x="9.525" y="8.89" rot="MR180"/>
 <element name="U$18" library="buzzard_labels" package="R11" value="" x="7.874" y="8.89" rot="MR180"/>
-<element name="U$23" library="buzzard_labels" package="GND9" value="" x="1.397" y="5.08" rot="MR180"/>
+<element name="U$23" library="buzzard_labels" package="GND9" value="" x="1.524" y="5.08" rot="MR180"/>
 <element name="U$24" library="buzzard_labels" package="#14" value="" x="17.907" y="5.842"/>
 <element name="U$25" library="buzzard_labels" package="#15" value="" x="19.177" y="12.827" rot="R90"/>
 </elements>
