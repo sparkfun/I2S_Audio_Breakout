@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -550,91 +550,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-08390"/>
 <attribute name="VALUE" value="0.1uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Coils">
-<description>&lt;h3&gt;SparkFun Coils&lt;/h3&gt;
-In this library you'll find magnetics.
-
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;Inductors&lt;/li&gt;
-&lt;li&gt;Ferrite Beads&lt;/li&gt;
-&lt;li&gt;Transformers&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;br&gt;
-&lt;p&gt;We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.&lt;/p&gt;</description>
-<packages>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-</packages>
-<symbols>
-<symbol name="FERRITE_BEAD">
-<description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
-&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;</description>
-<text x="1.27" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.889" y1="2.54" x2="0.889" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.143" y1="2.54" x2="1.143" y2="-2.54" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FERRITE_BEAD" prefix="FB">
-<description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
-&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;
-&lt;p&gt;SparkFun Products:
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13613"&gt;IOIO-OTG - V2.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13339"&gt;SparkFun 6 Degrees of Freedom Breakout - LSM6DS3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13672"&gt;SparkFun SAMD21 Dev Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="NDUC-13805"/>
-<attribute name="VALUE" value="30Ω/1.8A"/>
 </technology>
 </technologies>
 </device>
@@ -18779,8 +18694,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IC1" library="SparkFun-IC-Amplifiers" deviceset="MAX98357A" device="" value="MAX98375A"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF" device="-0805-10V-10%" value="10uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603" value=""/>
-<part name="FB2" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603" value=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="300KOHM" device="-0603-1/10W-1%" value="300k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM-NO_SILK"/>
@@ -18808,7 +18721,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="166.624" y="11.43" size="2.54" layer="94" font="vector">Alex Wende</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <wire x1="248.92" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="93.98" x2="147.32" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="97" style="longdash"/>
@@ -18822,20 +18735,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 (Left/2 + Right/2)</text>
 <text x="40.64" y="86.36" size="1.778" layer="97" font="vector" align="bottom-center">Stereo Output
 Channel Select</text>
-<text x="220.98" y="78.74" size="2.54" layer="97" font="vector" align="center">Gain Selection</text>
-<text x="213.36" y="68.58" size="1.778" layer="97" font="vector" align="center">Connect to GND through 
+<text x="220.98" y="78.74" size="2.54" layer="97" align="center">Gain Selection</text>
+<text x="213.36" y="68.58" size="1.778" layer="97" align="center">Connect to GND through 
 100kΩ resistor</text>
-<text x="213.36" y="63.5" size="1.778" layer="97" font="vector" align="center">Connect to GND</text>
-<text x="213.36" y="58.42" size="1.778" layer="97" font="vector" align="center">Unconnected
+<text x="213.36" y="63.5" size="1.778" layer="97" align="center">Connect to GND</text>
+<text x="213.36" y="58.42" size="1.778" layer="97" align="center">Unconnected
 (Default)</text>
-<text x="213.36" y="53.34" size="1.778" layer="97" font="vector" align="center">Connect to VDD</text>
-<text x="213.36" y="48.26" size="1.778" layer="97" font="vector" align="center">Connect to VDD through
+<text x="213.36" y="53.34" size="1.778" layer="97" align="center">Connect to VDD</text>
+<text x="213.36" y="48.26" size="1.778" layer="97" align="center">Connect to VDD through
 100kΩ resistor</text>
-<text x="233.68" y="68.58" size="1.778" layer="97" font="vector" align="center">+15 dB</text>
-<text x="233.68" y="63.5" size="1.778" layer="97" font="vector" align="center">+12 dB</text>
-<text x="233.68" y="58.42" size="1.778" layer="97" font="vector" align="center">+9 dB</text>
-<text x="233.68" y="53.34" size="1.778" layer="97" font="vector" align="center">+6 dB</text>
-<text x="233.68" y="48.26" size="1.778" layer="97" font="vector" align="center">+3 dB</text>
+<text x="233.68" y="68.58" size="1.778" layer="97" align="center">+15 dB</text>
+<text x="233.68" y="63.5" size="1.778" layer="97" align="center">+12 dB</text>
+<text x="233.68" y="58.42" size="1.778" layer="97" align="center">+9 dB</text>
+<text x="233.68" y="53.34" size="1.778" layer="97" align="center">+6 dB</text>
+<text x="233.68" y="48.26" size="1.778" layer="97" align="center">+3 dB</text>
 <wire x1="198.12" y1="81.28" x2="198.12" y2="76.2" width="0.1524" layer="97"/>
 <wire x1="198.12" y1="76.2" x2="198.12" y2="71.12" width="0.1524" layer="97"/>
 <wire x1="198.12" y1="71.12" x2="198.12" y2="66.04" width="0.1524" layer="97"/>
@@ -18856,8 +18769,8 @@ Channel Select</text>
 <wire x1="198.12" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="97"/>
 <wire x1="228.6" y1="76.2" x2="241.3" y2="76.2" width="0.1524" layer="97"/>
 <wire x1="228.6" y1="76.2" x2="228.6" y2="45.72" width="0.1524" layer="97"/>
-<text x="213.36" y="73.66" size="1.778" layer="97" font="vector" align="center">GAIN_SLOT</text>
-<text x="233.68" y="73.66" size="1.778" layer="97" font="vector" align="center">GAIN</text>
+<text x="213.36" y="73.66" size="1.778" layer="97" align="center">GAIN_SLOT</text>
+<text x="233.68" y="73.66" size="1.778" layer="97" align="center">GAIN</text>
 <wire x1="198.12" y1="71.12" x2="241.3" y2="71.12" width="0.1524" layer="97"/>
 <wire x1="198.12" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="97"/>
 <wire x1="198.12" y1="60.96" x2="241.3" y2="60.96" width="0.1524" layer="97"/>
@@ -18870,11 +18783,9 @@ Channel Select</text>
 <instance part="IC1" gate="G$1" x="116.84" y="139.7"/>
 <instance part="C1" gate="G$1" x="81.28" y="142.24"/>
 <instance part="C2" gate="G$1" x="76.2" y="142.24" rot="MR0"/>
-<instance part="FB1" gate="G$1" x="144.78" y="144.78" rot="R90"/>
-<instance part="FB2" gate="G$1" x="144.78" y="134.62" rot="R90"/>
 <instance part="R1" gate="G$1" x="45.72" y="63.5" rot="R90"/>
 <instance part="R2" gate="G$1" x="93.98" y="68.58" rot="R90"/>
-<instance part="J1" gate="G$1" x="170.18" y="139.7" rot="R180"/>
+<instance part="J1" gate="G$1" x="144.78" y="139.7" rot="R180"/>
 <instance part="JP1" gate="G$1" x="35.56" y="63.5"/>
 <instance part="SUPPLY1" gate="VDD" x="88.9" y="154.94"/>
 <instance part="SUPPLY2" gate="VDD" x="40.64" y="76.2"/>
@@ -18899,36 +18810,22 @@ Channel Select</text>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="OUT+" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT+"/>
-<pinref part="FB1" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="144.78" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="139.7" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="144.78" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="OUT-" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT-"/>
-<pinref part="FB2" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="134.62" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="FB1" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="144.78" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="144.78" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="139.7" x2="162.56" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="FB2" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="134.62" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="134.62" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="134.62" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!SD" class="0">
