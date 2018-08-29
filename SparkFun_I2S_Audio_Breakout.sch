@@ -276,7 +276,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="IC-14032"/>
-<attribute name="VALUE" value="MAX98375A"/>
+<attribute name="VALUE" value="MAX98357A"/>
 </technology>
 </technologies>
 </device>
@@ -18691,7 +18691,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="IC1" library="SparkFun-IC-Amplifiers" deviceset="MAX98357A" device="" value="MAX98375A"/>
+<part name="IC1" library="SparkFun-IC-Amplifiers" deviceset="MAX98357A" device="" value="MAX98357A"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF" device="-0805-10V-10%" value="10uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="300KOHM" device="-0603-1/10W-1%" value="300k"/>
